@@ -1,0 +1,8 @@
+[
+  {
+    "name": "OWASP-VWAD",
+    "repo": "https://github.com/OWASP/OWASP-VWAD.git",
+    "collection": true,
+    "entry": "./src/data/collection.json"
+  }
+]

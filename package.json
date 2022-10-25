@@ -1,0 +1,21 @@
+{
+  "name": "bulk-git-clone",
+  "version": "1.0.0",
+  "description": "clone repositories in bulk from a list (e.g. JSON file)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "node ./scripts/fetch.js"
+  },
+  "author": "Sean Nicholls seannicholls@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "process.argv": "^0.6.0",
+    "simple-git": "^3.14.1",
+    "uuid": "^9.0.0"
+  }
+}
